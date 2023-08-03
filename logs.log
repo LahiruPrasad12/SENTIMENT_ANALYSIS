@@ -1,3 +1,51 @@
 2023-08-03 23:33:50,747 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2023-08-03 23:33:50,747 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-03 23:33:59,356 - INFO - 127.0.0.1 - - [03/Aug/2023 23:33:59] "GET / HTTP/1.1" 200 -
+2023-08-03 23:33:59,619 - INFO - 127.0.0.1 - - [03/Aug/2023 23:33:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-08-03 23:33:59,627 - INFO - 127.0.0.1 - - [03/Aug/2023 23:33:59] "[36mGET /static/products/prod1.jpg HTTP/1.1[0m" 304 -
+2023-08-03 23:34:05,648 - INFO - Text : awsome
+2023-08-03 23:34:05,654 - INFO - Preprocessed Text : 0    awsom
+Name: tweet, dtype: object
+2023-08-03 23:34:05,658 - INFO - Vectorized Text : [[0. 0. 0. ... 0. 0. 0.]]
+2023-08-03 23:34:05,660 - INFO - Prediction : negative
+2023-08-03 23:34:05,661 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-08-03 23:34:05,667 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:05] "GET / HTTP/1.1" 200 -
+2023-08-03 23:34:05,693 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-08-03 23:34:05,698 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:05] "[36mGET /static/products/prod1.jpg HTTP/1.1[0m" 304 -
+2023-08-03 23:34:16,691 - INFO - Text : i hate it
+2023-08-03 23:34:16,701 - INFO - Preprocessed Text : 0    hate
+Name: tweet, dtype: object
+2023-08-03 23:34:16,704 - INFO - Vectorized Text : [[0. 0. 0. ... 0. 0. 0.]]
+2023-08-03 23:34:16,706 - INFO - Prediction : negative
+2023-08-03 23:34:16,708 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:16] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-08-03 23:34:16,714 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:16] "GET / HTTP/1.1" 200 -
+2023-08-03 23:34:16,750 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-08-03 23:34:16,754 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:16] "[36mGET /static/products/prod1.jpg HTTP/1.1[0m" 304 -
+2023-08-03 23:34:28,478 - INFO - Text : great product
+2023-08-03 23:34:28,490 - INFO - Preprocessed Text : 0    great product
+Name: tweet, dtype: object
+2023-08-03 23:34:28,492 - INFO - Vectorized Text : [[0. 0. 0. ... 0. 0. 0.]]
+2023-08-03 23:34:28,495 - INFO - Prediction : negative
+2023-08-03 23:34:28,496 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:28] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-08-03 23:34:28,503 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:28] "GET / HTTP/1.1" 200 -
+2023-08-03 23:34:28,530 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-08-03 23:34:28,537 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:28] "[36mGET /static/products/prod1.jpg HTTP/1.1[0m" 304 -
+2023-08-03 23:34:36,915 - INFO - Text : awsome. greate product
+2023-08-03 23:34:36,925 - INFO - Preprocessed Text : 0    awsom great product
+Name: tweet, dtype: object
+2023-08-03 23:34:36,927 - INFO - Vectorized Text : [[0. 0. 0. ... 0. 0. 0.]]
+2023-08-03 23:34:36,928 - INFO - Prediction : negative
+2023-08-03 23:34:36,928 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:36] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-08-03 23:34:36,936 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:36] "GET / HTTP/1.1" 200 -
+2023-08-03 23:34:36,967 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-08-03 23:34:36,973 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:36] "[36mGET /static/products/prod1.jpg HTTP/1.1[0m" 304 -
+2023-08-03 23:34:42,700 - INFO - Text : i love it
+2023-08-03 23:34:42,713 - INFO - Preprocessed Text : 0    love
+Name: tweet, dtype: object
+2023-08-03 23:34:42,716 - INFO - Vectorized Text : [[0. 0. 0. ... 0. 0. 0.]]
+2023-08-03 23:34:42,718 - INFO - Prediction : positive
+2023-08-03 23:34:42,719 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:42] "[32mPOST / HTTP/1.1[0m" 302 -
+2023-08-03 23:34:42,726 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:42] "GET / HTTP/1.1" 200 -
+2023-08-03 23:34:42,760 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-08-03 23:34:42,765 - INFO - 127.0.0.1 - - [03/Aug/2023 23:34:42] "[36mGET /static/products/prod1.jpg HTTP/1.1[0m" 304 -
